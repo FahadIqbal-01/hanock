@@ -1,0 +1,1355 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+}
+
+/*--- ===== nav css start ===== ---*/
+.navBar {
+    position: absolute;
+    width: 100%;
+}
+
+.navBar ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #DDDDDD;
+    margin-left: 29px;
+    transition: 0.3s;
+}
+
+.navBar ul li a:hover {
+    color: #FF4655;
+}
+
+.globe {
+    font-size: 25px;
+    color: #FFFFFF;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.globe:hover {
+    transform: scale(1.2);
+}
+
+.signin {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.signin:hover {
+    transform: scale(1.2);
+}
+
+.signin i {
+    font-size: 14px;
+    margin-right: 7px;
+}
+
+.search {
+    font-size: 25px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 31px;
+    transition: 0.3s;
+}
+
+.search:hover {
+
+    transform: scale(1.2);
+}
+
+/*--- ===== nav css end ===== ---*/
+
+/*--- ===== banner css start ===== ---*/
+#banner {
+    background: url("image/banner\ 1.png") no-repeat center;
+    background-size: cover;
+    padding-top: 337px;
+    padding-bottom: 103px;
+}
+
+.banner_text h2 {
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+}
+
+.banner_text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+
+.banner_text h1::after {
+    content: '';
+    width: 90px;
+    height: 4px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
+    right: -110px;
+}
+
+.banner_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 523px;
+    margin-top: 5px;
+}
+
+.banner_text a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212;
+    display: inline-block;
+    text-decoration: none;
+    background: #FFFFFF;
+    padding: 13px 24px;
+    margin-top: 48px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.banner_text a:hover {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.banner_text a i {
+    margin-left: 7px;
+}
+
+.socials {
+    margin-top: 301px;
+}
+
+.socials ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socials ul li {
+    height: 35px;
+    width: 35px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    line-height: 35px;
+    position: relative;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.socials ul li:hover {
+    background: #FF4655;
+}
+
+.socials ul li a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.socials ul li a i {
+    font-size: 20px;
+    color: #000000;
+}
+
+/*--- ===== banner css end ===== ---*/
+
+/*--- ===== about css start ===== ---*/
+#about {
+    background: #121212;
+    padding-top: 34px;
+    padding-bottom: 80px;
+}
+
+#about .titles {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #FFFFFF;
+    width: 518px;
+    position: relative;
+    display: inline-block;
+}
+
+#about .titles::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    right: 180px;
+}
+
+#about .about_text {
+    margin-top: 64px;
+}
+
+.about_text .left {
+    position: relative;
+}
+
+.about_text .left::after {
+    content: '';
+    width: 7px;
+    height: 157px;
+    background: #FF4655;
+    position: absolute;
+    top: -7px;
+    left: 5px;
+}
+
+.about_text .left::before {
+    content: '';
+    width: 157px;
+    height: 7px;
+    background: #FF4655;
+    position: absolute;
+    top: -7px;
+    left: 2;
+}
+
+.about_text .right h3 {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.81px;
+    color: #FFFFFF;
+}
+
+.about_text .right ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+}
+
+.about_text .right ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.about_text .right ul li i {
+    font-size: 15px;
+    color: #FF4655;
+    margin-right: 10px;
+}
+
+.about_text .right p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+
+.about_text .right a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    background: #212121;
+    padding: 13px 24px;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.about_text .right a:hover {
+    border: 2px solid #FF4655;
+    background: transparent;
+    color: #FF4655;
+}
+
+.main_box {
+    margin-top: 50px;
+}
+
+.box {
+    width: 315px;
+    height: 170px;
+    background: #212121;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-top: 26px;
+    padding-left: 100px;
+}
+
+.box::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    color: #FF4655;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.box h2 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    position: relative;
+    display: inline-block;
+}
+
+.box h2::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #FF4655;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: -20px;
+}
+
+.box h4 {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2%;
+    margin-top: 18px;
+}
+
+/*--- ===== about css end ===== ---*/
+
+/*--- ===== popular css start ===== ---*/
+#popular {
+    background: #212529;
+    padding-bottom: 90px;
+    padding-top: 115px;
+}
+
+#popular .title {
+    margin-bottom: 80px;
+}
+
+#popular .title h2 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #FFFFFF;
+    width: 527px;
+    margin-left: auto;
+    text-align: right;
+    position: relative;
+}
+
+#popular .title h2::before {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    left: 275px;
+}
+
+.popularimg {
+    position: relative;
+}
+
+.p_image {
+    position: absolute;
+    top: -215px;
+    left: 10px;
+}
+
+.slick-list {
+    height: 500px;
+}
+
+.slider_item {
+    margin-top: 100px;
+}
+
+.right_arrow {
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 94px;
+    right: 0;
+    z-index: 999;
+}
+
+.left_arrow {
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 34px;
+    right: 0;
+}
+
+/*--- ===== popular css end ===== ---*/
+
+/*--- ===== streaming css start ===== ---*/
+#stream {
+    background: #121212;
+    padding-bottom: 103px;
+    padding-top: 77px;
+}
+
+.title h2 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #FFFFFF;
+    width: 446px;
+    position: relative;
+}
+
+.title h2::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 5px;
+    right: 170px;
+}
+
+.vid_main {
+    margin-top: 68.86px;
+}
+
+.videos {
+    position: relative;
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+
+.videos:hover {
+    filter: grayscale(0);
+}
+
+.videos img {
+    transition: 0.3s;
+}
+
+.videos:hover img {
+    transform: scale(1.04);
+}
+
+.videos img {
+    line-height: 1px;
+}
+
+.play {
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.play i {
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 70px;
+}
+
+.texts {
+    width: 377px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
+.videos:hover .texts {
+    width: 385px;
+}
+
+.videos .texts h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.videos .texts h4 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.videos .texts h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 31px;
+    position: relative;
+}
+
+.videos .texts h5::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #FF4655;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: -10px;
+}
+
+.img_mid {
+    height: 275.46px;
+    width: 427px;
+}
+
+#stream .title_1 {
+    width: 100%;
+    margin-top: 60.99px;
+}
+
+#stream .title_1 h3 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.teams {
+    margin-top: 49.19px;
+}
+
+.teams .team1 {
+    width: 426px;
+    height: 118.05px;
+    background: #212121;
+    clip-path: polygon(0 0, 100% 0%, 88% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+}
+
+.teams .team1 h3 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.96px;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 121px;
+}
+
+.teams .time {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.teams .time h3 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+}
+
+.teams .team2 {
+    width: 426px;
+    height: 118.05px;
+    background: #212121;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teams .team2 h3 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.96px;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 59px;
+}
+
+.row_2 {
+    margin-top: 58.56px;
+}
+
+/*--- ===== streaming css end ===== ---*/
+
+/*--- ===== games css start ===== ---*/
+#games {
+    background: #212529;
+    padding-bottom: 90px;
+    padding-top: 76px;
+}
+
+#games .title1 h2 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #FFFFFF;
+    width: 527px;
+    margin-left: auto;
+    text-align: right;
+    position: relative;
+}
+
+#games .title1 h2::before {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 6px;
+    right: 100px;
+}
+
+.details {
+    width: 315px;
+    margin-top: 47px;
+}
+
+.details .game-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.details .company {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.prices {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.prices h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 30px;
+    width: 40px;
+    background: #FF4655;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.prices h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+    color: #666666;
+    text-decoration: line-through;
+}
+
+.prices h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+label {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.catalog {
+    background: #212121;
+    padding: 42px 0;
+    margin-top: 30px;
+}
+
+.text_area {
+    padding-left: 44px;
+}
+
+.text_area h3 {
+    color: #FF4655;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+}
+
+.text_area h2 {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.text_area p {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+    width: 603px;
+    margin-top: 16px;
+}
+
+.text_area a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 31px;
+    background: #121212;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.text_area a:hover {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+}
+
+.catalog .slide_img {
+    text-align: center;
+}
+
+/*--- ===== games css end ===== ---*/
+
+/*--- ===== slider2 css start ===== ---*/
+#slider2 {
+    background: #121212;
+    padding: 90px 0;
+}
+
+.Slider_title h2 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #FFFFFF;
+    width: 446px;
+    position: relative;
+}
+
+.Slider_title h2::after {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 7px;
+    right: 115px;
+}
+
+.slider_main {
+    height: 465px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 102.82px;
+}
+
+.slide_box {
+    background: #212121;
+    width: 315px;
+    height: 465px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    margin-right: 10px;
+}
+
+.slide_box h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.slide_box img {
+    margin-top: 7px;
+    margin-left: 38px;
+    width: 240px;
+    height: 240px;
+}
+
+.slide_box h4 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 45px;
+}
+
+.slide_box a {
+    color: #FF4655;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 7px;
+    transition: 0.3s;
+}
+
+.slide_box a:hover {
+    background: #FF4655;
+    padding: 7px 15px;
+    color: #FFFFFF;
+}
+
+.slider_main {
+    position: relative;
+}
+
+.right-arrow {
+    color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    background: #FF4655;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -16px;
+    z-index: 999;
+}
+
+.right-arrow i {
+    font-size: 20px;
+}
+
+.left-arrow {
+    color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    background: #FF4655;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -25px;
+    z-index: 999;
+}
+
+.left-arrow i {
+    font-size: 20px;
+}
+
+/*--- ===== slider2 css end ===== ---*/
+
+/*--- ===== team css start ===== ---*/
+#teams {
+    background: #191919;
+    padding-top: 100px;
+    padding-bottom: 74px;
+}
+
+.team_intro h2 {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    width: 547px;
+    margin-left: auto;
+    text-align: right;
+    position: relative;
+}
+
+.team_intro h2::before {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 6px;
+    right: 100px;
+}
+
+.team_details {
+    background: url(image/team-1\ 1.png) no-repeat center;
+    background-position: cover;
+    width: 650px;
+    height: 428.35px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.team_details .team-text {
+    width: 100%;
+    height: 89.65px;
+    padding-top: 24.9px;
+    padding-left: 30px;
+    padding-right: 58px;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: rgba(37, 36, 36, 0.38);
+    position: absolute;
+    bottom: -14px;
+    transition: 0.3s;
+}
+
+.team_details:hover .team-text {
+    display: block;
+    bottom: 0;
+    height: 212.18px;
+}
+
+.team-text h3 {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.team-text p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+    margin-top: 5.98px;
+}
+
+.team-text .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19.92px;
+}
+
+.team-text .buttons a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4.77px 20px;
+    background: #FF4655;
+    border: 1px solid #FF4655;
+    transition: 0.5s;
+}
+
+.team-text .buttons a:hover {
+    background: transparent;
+    border: 1px solid #FF4655;
+    color: #FF4655;
+}
+
+.team-text .buttons ul {
+    padding: 0;
+    margin: 0;
+}
+
+.team-text .buttons ul li i {
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.team-text .buttons ul li {
+    display: inline-block;
+    margin-left: 28px;
+    height: 35px;
+    width: 35px;
+    background: #FF4655;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    transition: 0.3s;
+}
+
+.team-text .buttons ul li:hover {
+    background: transparent;
+    border: 1px solid #FF4655;
+}
+
+.team-text .buttons ul li:hover i {
+    color: #FF4655;
+}
+
+.d_2 {
+    background: url(image/team-2\ 1.png) no-repeat center;
+    background-position: cover;
+}
+
+.d_3 {
+    background: url(image/team-3\ 1.png) no-repeat center;
+    background-position: cover;
+}
+
+.d_4 {
+    background: url(image/team-4\ 1.png) no-repeat center;
+    background-position: cover;
+}
+
+.team_row2 {
+    margin-top: 29.88px;
+}
+
+/*--- ===== team css end ===== ---*/
+
+/*--- ===== introgations css start ===== ---*/
+#interrogation {
+    background: #121212;
+    padding-bottom: 210px;
+    padding-top: 45px;
+}
+
+#interrogation h2 {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 3.8px;
+    width: 496px;
+    position: relative;
+}
+
+#interrogation h2::after {
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 7px;
+    right: 28px;
+}
+
+.help-line {
+    margin-top: 92px;
+}
+
+.que-ans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.que-ans .left {
+    display: flex;
+    gap: 42px;
+    width: 539px;
+    text-emphasis: 109px;
+}
+
+.que-ans .left .number {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 3.8px;
+    height: 70px;
+    width: 70px;
+    background: #FF4655;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+}
+
+.que-ans .left .text .questions {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.que-ans .left .text .questions:hover {
+    color: #FF4655;
+}
+
+.que-ans .left .text p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    width: 427px;
+}
+
+.que-ans-p2 {
+    margin-top: 151px;
+}
+
+.help-line {
+    position: relative;
+}
+
+.center-mid-line {
+    height: 369px;
+    width: 1px;
+    background: #666666;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.h_line {
+    position: relative;
+}
+
+.center-mid-line-2 {
+    height: 1px;
+    width: 1320px;
+    background: #666666;
+    position: absolute;
+    top: 50%;
+}
+
+/*--- ===== introgations css end ===== ---*/
+
+/*--- ===== foter css start ===== ---*/
+#footer {
+    width: 100%;
+    background: #191919;
+}
+
+.signin_box {
+    position: relative;
+}
+
+.mian_box {
+    width: 100%;
+    height: 165px;
+    background: #FF4655;
+    position: absolute;
+    top: -82.5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mian_box h3 {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 725px;
+}
+
+.mian_box .email {
+    height: 40px;
+    width: 409px;
+    border: 0;
+    border-radius: 30px;
+    color: #666666;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.mian_box {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 16px;
+}
+
+.mian_box button {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #191919;
+    width: 117px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    position: absolute;
+    right: 16px;
+    transition: 0.3s;
+}
+
+.mian_box button:hover {
+    background: #FFFFFF;
+    color: #666666;
+}
+
+.footer_main{
+    padding-bottom: 70px;
+}
+.footer_main .left .foter_logo {
+    height: 42px;
+    width: 124.02px;
+}
+
+.footer_main .left p {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 451px;
+    margin-top: 30px;
+}
+
+.footer_main .left .footer_socials {
+    margin-top: 59px;
+}
+
+.footer_main .left .footer_socials ul {
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.footer_main .left .footer_socials ul li {
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    background: #212529;
+    border: 1px solid #212529;
+    border-radius: 50%;
+    transition: 0.3s;
+    position: relative;
+}
+
+.footer_main .left .footer_socials ul li:hover {
+    background: #FF4655;
+    border: 1px solid #FF4655;
+}
+
+.footer_main .left .footer_socials ul li i {
+    font-size: 28.57px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    margin-top: -55px;
+}
+
+.center .footer_lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .footer_lists label {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+}
+
+.center .footer_lists ul {
+    margin: 0;
+    padding: 0;
+}
+
+.center .footer_lists ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.center .footer_lists ul li:hover {
+    color: #FF4655;
+}
+
+.center .footer_lists ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #666666;
+    transition: 0.3s;
+}
+
+.center .footer_lists ul li a:hover {
+    color: #FF4655;
+}
+
+.foter_catalogue {
+    text-align: right;
+    margin-top: -55px;
+}
+
+.foter_catalogue .catalogue_title {
+    color: #FFFFFF;
+    font-family: Barlow Condensed;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    margin-right: 226px;
+    margin-bottom: 30px;
+}
+.foter_catalogue  .top{
+    margin-bottom: 5px;
+}
+.ownership{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.ownership h4{
+color: #FFFFFF;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-weight: 400;
+}
+.ownership h4 span{
+    color: #FF4655;
+}
+.ownership .top_line{
+    width: 1320px;
+    height: 1px;
+    background: #666666;
+    margin-bottom: 25px;
+}
+/*--- ===== footer css end ===== ---*/
